@@ -53,7 +53,7 @@ void init_target_properties()
 {
     std::string device;
 
-    device = property_get("ro.aicp.device");
+    device = property_get("ro.cos.device");
     if (device != "tomato")
         return;
 
